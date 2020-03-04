@@ -14,7 +14,7 @@ int main() {
   id menubar = [[NSMenu new] autorelease];
 
   // populate app menu
-  /* id menuItem = [[NSMenuItem new] autorelease];
+  id menuItem = [[NSMenuItem new] autorelease];
   id submenu = [[NSMenu new] autorelease];
   id quitMenuItem = [[[NSMenuItem alloc] initWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@"q"] autorelease];
   [submenu addItem:quitMenuItem];
@@ -27,7 +27,7 @@ int main() {
   id cutMenuItem = [[[NSMenuItem alloc] initWithTitle:@"Cut" action:@selector(cut:) keyEquivalent:@"x"] autorelease];
   [submenu addItem:cutMenuItem];
   [menuItem setSubmenu:submenu];
-  [menubar addItem:menuItem]; */
+  [menubar addItem:menuItem];
 
   [NSApp setMainMenu:menubar];
 
